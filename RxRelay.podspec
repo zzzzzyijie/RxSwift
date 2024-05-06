@@ -26,5 +26,5 @@ Relays for RxSwift - PublishRelay, BehaviorRelay and ReplayRelay
 
   s.dependency 'RxSwift', '6.2.0'
   s.swift_version = '5.1'
-  s.resource_bundles = {'RxRelay' => ['Sources/RxRelay/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'RxRelay' => ['RxRelay/**/PrivacyInfo.xcprivacy']}
 end
