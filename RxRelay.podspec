@@ -22,7 +22,6 @@ Relays for RxSwift - PublishRelay, BehaviorRelay and ReplayRelay
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '9.0'
 
-  s.header_dir            = "RxRelay"
   s.source_files          = 'RxRelay/**/*.{swift,h,m}'
 
   s.dependency 'RxSwift', '6.2.0'
